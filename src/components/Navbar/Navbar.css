@@ -27,11 +27,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffc20e;
+  /* color: #ffc20e; */
+  color: var(--col1);
 }
 
 nav button{
-    background-color: var(--col1);
+    background-color: #334155;
     border: none;
     outline: none;
     cursor: pointer;
@@ -40,4 +41,5 @@ nav button{
     color: white;
     transition: 0.3s ease-in-out;
     padding: 10px;
+    border-radius: 5px;
 }
